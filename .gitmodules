@@ -3,4 +3,4 @@
 	url = https://github.com/gurusabarish/hugo-profile.git
 [submodule "public"]
 	path = public
-	url = https://github.com/TeamLinux01/TeamLinux01.github.io
+	url = git@github.com:TeamLinux01/TeamLinux01.github.io.git
