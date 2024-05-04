@@ -1,6 +1,6 @@
 # Source of https://daniel.melzaks.com
 
-## How to setup, if it doesn't have the .gitmodules file setup
+## How to setup
 
 ```
 git clone --recurse-submodules -j8 git@github.com:TeamLinux01/daniel.melzaks.com.git && \
@@ -15,3 +15,18 @@ git checkout main
 * `hugo.yaml`: how to modify the overall website layout
 * `content/blogs`: folder that stores the blog entries via `.md` files
 * `content/images`: folder that stores images
+
+### How to publish
+
+1. In the root of the repo. run `hugo --gc --minify`.
+1. Change directory to `public`.
+1. Stage any changed files and commit.
+1. Push to all remote repositories.
+
+```
+hugo --gc --minify && \
+cd public && \
+git add . && \
+git commit -m "Updated website" && \
+git push
+```
