@@ -3,10 +3,11 @@
 ## How to setup, if it doesn't have the .gitmodules file setup
 
 ```
-git clone git@github.com:TeamLinux01/daniel.melzaks.com.git && \
-cd daniel.melzaks.com && \
-git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke && \
-git submodule add git@github.com:TeamLinux01/TeamLinux01.github.io.git public
+git clone --recurse-submodules -j8 git@github.com:TeamLinux01/daniel.melzaks.com.git && \
+cd daniel.melzaks.com/themes/anake && \
+git checkout master && \
+cd ../../public && \
+git checkout main
 ```
 
 ## How to edit
