@@ -1,13 +1,13 @@
 # Source of https://daniel.melzaks.com
 
-# How to make your own version
+## How to make your own version
 
 1. Create a repo for your [personal github pages](https://pages.github.com).
 1. Fork this repo.
 1. Change the `.gitmodules` to point public at your github pages repo.
 1. Remove all `.md` files from `content` folder, modify the `hugo.yaml`
 
-## How to test your site
+### How to test your site
 
 1. Run this command on the desktop you are testing on:
 	```
@@ -25,7 +25,7 @@ cd ../../public && \
 git checkout main
 ```
 
-## How to edit
+### How to edit
 
 * `hugo.yaml`: how to modify the overall website layout
 * `content/blogs`: folder that stores the blog entries via `.md` files
