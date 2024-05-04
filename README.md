@@ -4,7 +4,7 @@
 
 ```
 git clone --recurse-submodules -j8 git@github.com:TeamLinux01/daniel.melzaks.com.git && \
-cd daniel.melzaks.com/themes/anake && \
+cd daniel.melzaks.com/themes/hugo-profile && \
 git checkout master && \
 cd ../../public && \
 git checkout main
