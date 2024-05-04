@@ -4,7 +4,8 @@
 
 1. Create a repo for your [personal github pages](https://pages.github.com).
 1. Fork this repo.
-1. Change the `.gitmodules` to point public at your github pages repo.
+1. Change any references to `daniel.melzaks.com` in the readme and anywhere else.
+1. Change the `.gitmodules` to point `public` at your github pages repo.
 1. Remove all `.md` files from `content` folder, modify the `hugo.yaml`
 
 ### How to test your site
@@ -18,7 +19,7 @@
 ## How to setup
 
 ```
-git clone --recurse-submodules -j8 git@github.com:TeamLinux01/daniel.melzaks.com.git && \
+git clone --recurse-submodules -j8 git@github.com:TeamLinux01/daniel.melzaks.com.git
 ```
 
 ### How to edit
