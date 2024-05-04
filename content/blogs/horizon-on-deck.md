@@ -4,7 +4,7 @@ date = 2023-10-07T12:00:00-04:00
 draft = false
 +++
 
-# Horizon on Deck
+# A thank you to the HorizonXI team
 
 First off, thank you HorizonXI team for setting all of this up so people can relive some of the best days of Final Fantasy XI. It is also great with how easy it is to get started. Appreciate the hard work.
 
