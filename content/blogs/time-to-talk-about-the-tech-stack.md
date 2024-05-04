@@ -4,7 +4,7 @@ date = 2023-02-15T12:00:00-04:00
 draft = false
 +++
 
-# My srver's tech stack
+# My server's tech stack
 
 ![Photo by Kelly](/images/blogs/pexels-kelly-1179532-4269517.jpg "Photo by Kelly: https://www.pexels.com/photo/anonymous-pilots-in-aircraft-cockpit-flying-over-sea-4269517/")
 
@@ -76,4 +76,4 @@ If I missed anything, I will come back and edit this post. I hope this overview 
 
 Thank you for reading, may you enjoy your day. Never stop learning and God bless.
 
-Update 2024-05-04: Some things have changed and I will be using just a caddy podman container and a static folder to host this blog, it is much simpler.
+**Update 2024-05-04:** Some things have changed and I will be using just a caddy podman container and a static folder to host this blog, it is much simpler.

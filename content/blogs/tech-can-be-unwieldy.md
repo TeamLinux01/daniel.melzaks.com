@@ -16,4 +16,4 @@ Lesson learned, if you generate a new container, update the PIDFile used in the 
 
 Read the output of the `PIDFile=` and copy it over to the `.service` file.
 
-Update 2024-05-04: I have moved over to Hugo, so I can just serve static files via Caddy. This is much simpler for me to understand and backup.
+**Update 2024-05-04:** I have moved over to Hugo, so I can just serve static files via Caddy. This is much simpler for me to understand and backup.
