@@ -3,6 +3,7 @@ title = 'Brainstorming using diagrams.net'
 date = 2023-02-13T12:00:00-04:00
 draft = false
 +++
+
 ![Photo by Andrea Piacquadio](/images/blogs/pexels-olly-3758105.jpg "Photo by Andrea Piacquadio: https://www.pexels.com/photo/woman-draw-a-light-bulb-in-white-board-3758105/")
 
 Today I would like to share with you all some software I discovered a few years ago. I haven't used it in a while, but it is always nice to have a great tool on hand. That tool is [diagrams.net](https://app.diagrams.net), which will be used to create a flow chart for my thoughts.
