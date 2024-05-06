@@ -1,4 +1,4 @@
-FROM docker.io/library/caddy:alpine AS builder
+FROM docker.io/library/caddy:alpine
 
 COPY ./public /usr/share/caddy
 

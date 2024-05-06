@@ -1,5 +1,5 @@
 #!/bin/bash
 
-containerImage="docker.io/teamlinux01/daniel.melzaks.com:latest"
+source podman.env
 
 buildah bud -t $containerImage .
