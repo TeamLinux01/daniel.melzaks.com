@@ -2,7 +2,3 @@
 	path = themes/hugo-profile
 	url = https://github.com/gurusabarish/hugo-profile.git
 	branch = master
-[submodule "public"]
-	path = public
-	url = git@github.com:TeamLinux01/TeamLinux01.github.io.git
-	branch = main
