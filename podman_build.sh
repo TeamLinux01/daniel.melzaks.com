@@ -2,4 +2,4 @@
 
 source podman.env
 
-buildah bud -t $containerImage .
+buildah bud -t $imageName .

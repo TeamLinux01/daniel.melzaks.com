@@ -2,4 +2,4 @@
 
 source podman.env
 
-podman push $containerImage
+podman push $imageName
