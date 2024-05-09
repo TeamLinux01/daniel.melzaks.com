@@ -28,10 +28,10 @@ Menus:
       title: Blog posts
       url: /blogs
       weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
+    - identifier: guides
+      name: Guides
+      title: Guide entries
+      url: /guides
       weight: 2
     #Dropdown menu
     # - identifier: dropdown
