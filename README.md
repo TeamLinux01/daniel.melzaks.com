@@ -4,13 +4,12 @@
 
 1. Create a repo for your [personal github pages](https://pages.github.com).
 1. Fork this repo.
-1. Change any references to `daniel.melzaks.com` in the readme and anywhere else.
-1. Change the `.gitmodules` to point `public` at your github pages repo.
+1. Change any references to `daniel.melzaks.com` in the readme, `podman.env` and anywhere else.
 1. Remove all `.md` files from `content` folder, modify the `hugo.yaml`
 
 ### How to test your site
 
-1. Run this command on the desktop you are testing on:
+1. Run this command on the desktop/server you are testing on:
 	```
 	hugo server
 	```
@@ -30,15 +29,8 @@ git clone --recurse-submodules -j8 git@github.com:TeamLinux01/daniel.melzaks.com
 
 ### How to publish
 
-1. In the root of the repo. run `hugo --gc --minify`.
-1. Change directory to `public`.
-1. Stage any changed files and commit.
-1. Push to all remote repositories.
+> Make sure to edit the `podman.env` file for your container registry, username and image name before running the script.
 
-```
-hugo --gc --minify && \
-cd public && \
-git add . && \
-git commit -m "Updated website" && \
-git push
-```
+1. Run the `build_website.sh` script.
+1. Pull the image from the container registry on your server.
+1. Run the container image and use a reverse proxy container to add TLS.
