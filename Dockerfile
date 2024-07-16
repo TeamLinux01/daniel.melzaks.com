@@ -1,4 +1,4 @@
-FROM docker.io/chainguard/hugo:latest as builder
+FROM docker.io/chainguard/hugo:latest-dev as builder
 
 RUN hugo --gc --minify
 
