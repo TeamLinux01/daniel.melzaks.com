@@ -1,11 +1,11 @@
-FROM docker.io/chainguard/hugo:latest-dev as builder
+FROM docker.io/chainguard/hugo:latest-dev AS builder
 
 COPY ./ /hugo
 
-RUN hugo -c /hugo -d /public --gc --minify
+RUN hugo -c /hugo -d /hugo/public --gc --minify
 
 FROM docker.io/library/caddy:alpine
 
-COPY --from=builder /public /usr/share/caddy
+COPY --from=builder /hugo/public /usr/share/caddy
 
 WORKDIR /usr/share/caddy
