@@ -35,7 +35,7 @@ Menus:
       weight: 2
     - identifier: edit
       name: Edit on Github
-      url: https://github.com/TeamLinux01/daniel.melzaks.com/tree/testing
+      url: https://github.com/TeamLinux01/daniel.melzaks.com
       weight: 3
     #Dropdown menu
     # - identifier: dropdown
