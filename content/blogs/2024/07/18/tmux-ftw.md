@@ -53,7 +53,9 @@ setw -g mode-keys vi
 ```
 
 Lastly I set tmux as my default shell.
+
 Desktop command: `ujust chsh /usr/bin/tmux`
+
 Server command: `chsh`, path to shell was `/usr/bin/tmux`
 
 With all that done, I can now enjoy creating new panes, windows and not worry about commands being terminated do to disconnections. Using the `bind-key b send-prefix`, I am able to press `Ctrl+b` then `b` then the command I want to send to my server.
