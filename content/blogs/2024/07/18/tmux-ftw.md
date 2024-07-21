@@ -54,6 +54,8 @@ setw -g mode-keys vi
 
 Lastly I set tmux as my default shell by executing it with `.bashrc`
 
+>🛑 Don't do this right now. It caused my KDE Plasma to login to a black screen. I will look into a better way and update when I can.
+
 Add the following line to the end of `~/.bashrc`:
 ```file
 if [[ -z "$TMUX" ]]; then
