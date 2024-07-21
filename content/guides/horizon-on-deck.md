@@ -12,13 +12,7 @@ First off, thank you HorizonXI team for setting all of this up so people can rel
 
 [It's a script on Github](https://github.com/TeamLinux01/HorizonXI-on-Deck)
 
-> 🛑 The more "official" way to install HorizonXI would be to use this script, so please use the link to setup the game.
->
->https://github.com/trentondyck/horizon_scripts
->
->This was recommend via the Discord Steam Deck Thread for HorizonXI.
->
->Please check out this guide as well.
+>🛑 Please check out this install guide as well.
 >
 >https://github.com/MattyGWS/HorizonXI-Linux-Installation
 >
@@ -48,13 +42,13 @@ If you do not have `GE-Proton7-42` go ahead and get [ProtonUp-Qt](https://flathu
 
 In the Steam interface, click the `Add non-steam game` button, find `/home/deck/Games/HorizonXI/Launcher/HorizonXI-Launcher`.exe or the path you extracted it and add it to Steam. Now change the properties of `HorizonXI-Launcher.exe` Steam game link, I renamed it to just `HorizonXI`, set the **LAUNCH OPTIONS** to
 
-`STEAM_COMPAT_DATA_PATH=/home/deck/Games/HorizonXI/Prefix/ %command%`
-
->🛑 If installing on another Linux OS and username, change /home/deck/ to /home/*username*/, such as /home/daniel/.
+```
+STEAM_COMPAT_DATA_PATH=$HOME/Games/HorizonXI/Prefix/ %command%
+```
 
 This will tell steam to use this folder instead of the numbered folder in the compdata and set the proton version to `GE-Proton7-42`. I originally tried `GE-Proton8-16`, but it would not pass the login information from the launcher to the ashita-cli.exe program and other issues.
 
->💡 It seems newer versions of GE Proton have started to work with the game, starting with `GE-Proton8-25` and `Proton-9.0`. If the you have issues with the latest version, stick with `GE-Proton7-42`. Although I have heard that there is a memory leak in versions other that `GE-Proton7-42`, which will cause the game to crash after a while.
+>🛑 Only use `GE-Proton7-42`, as newer versions have issues with either not being able to login or causing the game to crash after a few minutes to a couple of hours.
 
 To update the launcher, run the setup script again, although the version number has to be updated in the script before launching or it will get the same version. I will try to keep the version as up to date as possible.
 
