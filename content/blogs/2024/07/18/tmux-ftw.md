@@ -52,11 +52,18 @@ set -g mouse on
 setw -g mode-keys vi
 ```
 
-Lastly I set tmux as my default shell.
+Lastly I set tmux as my default shell by executing it with `.bashrc`
 
-Desktop command: `ujust chsh /usr/bin/tmux`
-
-Server command: `chsh`, path to shell was `/usr/bin/tmux`
+Add the following line to the end of `~/.bashrc`:
+```file
+if [[ -z "$TMUX" ]]; then
+    if tmux has-session 2>/dev/null; then
+        exec tmux attach
+    else
+        exec tmux
+    fi
+fi
+```
 
 With all that done, I can now enjoy creating new panes, windows and not worry about commands being terminated do to disconnections. Using the `bind-key b send-prefix`, I am able to press `Ctrl+b` then `b` then the command I want to send to my server.
 
