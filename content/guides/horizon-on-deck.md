@@ -24,7 +24,6 @@ When you are ready to begin, go ahead and register an account on HorizonXI. They
 
 This game is all about playing with others, so no dual boxing or botting and the server has been designed to remove a lot of Quality of Life things that were introduced later in FFXI lifetime, such as Home Point teleporting, easy experience point gaining or level syncing.
 
-[![](https://markdown-videos-api.jorgenkh.no/youtube/uM0T9fIVgEc)](https://youtu.be/uM0T9fIVgEc)
 
 ## Download the launcher
 
