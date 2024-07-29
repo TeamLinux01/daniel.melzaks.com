@@ -199,7 +199,7 @@ sudo cp /usr/lib/systemd/system/rpm-ostreed-automitic.timer /etc/systemd/system/
 sudo nvim /etc/systemd/system/rpm-ostreed-automatic.timer
 ```
 
-`/etc/ssh/sshd_config` #Change to this
+`/etc/systemd/system/rpm-ostreed-automatic.timer` #Change to this
 ```file
 [Unit]
 Description=rpm-ostree Automatic Update Trigger
