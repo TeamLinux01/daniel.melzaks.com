@@ -67,7 +67,7 @@ storage:
   files:
     - path: /etc/sysctl.d/net.conf
       contents:
-        inline: net.ipv4.ip_unprivileged_port_start=80
+        inline: net.ipv4.ip_unprivileged_port_start=53
     - path: /etc/systemd/user/podman-compose@.service
       contents:
         source: http://workstation/podman-compose@.service
