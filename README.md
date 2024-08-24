@@ -4,7 +4,7 @@
 
 1. Create a repo for your [personal github pages](https://pages.github.com).
 1. Fork this repo.
-1. Change any references to `daniel.melzaks.com` in the readme, `podman.env` and anywhere else.
+1. Change any references to `daniel.melzaks.com` in the repo.
 1. Remove all `.md` files from `content` folder, modify the `hugo.yaml`
 
 ### How to test your site
@@ -17,9 +17,7 @@
 
 ## How to setup
 
-```
-git clone --recurse-submodules -j8 git@github.com:TeamLinux01/daniel.melzaks.com.git
-```
+`git clone` the forked repo.
 
 ### How to edit
 
@@ -29,8 +27,13 @@ git clone --recurse-submodules -j8 git@github.com:TeamLinux01/daniel.melzaks.com
 
 ### How to publish
 
-> Make sure to edit the `podman.env` file for your container registry, username and image name before running the script.
+> There are a few github secerts that need to be added for the Github Actions. It expects to upload to Docker Hub.
 
-1. Run the `build_website.sh` script.
-1. Pull the image from the container registry on your server.
-1. Run the container image and use a reverse proxy container to add TLS.
+#### List of secerts in Github repo
+
+* DOCKERHUB_USERNAME
+* DOCKERHUB_TOKEN
+
+`DOCKER_USERNAME` is the [Docker Hub](https://hub.docker.com/) username.
+
+`DOCKERHUB_TOKEN` is the [Docker Hub Token](https://docs.docker.com/security/for-developers/access-tokens/#create-an-access-token). It should have a scope of `Read & Write`.
