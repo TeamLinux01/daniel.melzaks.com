@@ -60,7 +60,7 @@ At the live CD's desktop, I ran the `efibootmgr` command as root. I also used `f
 To add the EFI entry, I used the command:
 
 ```
-sudo efibootmgr -c -d /dev/nvme0n1 -p 5 -l "\EFI\fedora\shimx64.efi
+sudo efibootmgr -c -d /dev/nvme0n1 -p 5 -l "\EFI\fedora\shimx64.efi" -L "aurora"
 ```
 
 Except instead of `shimx64.efi`, I read about efi entries and I had deduced I need to use `grubx64.efi`.
