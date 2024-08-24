@@ -4,7 +4,7 @@ date = 2024-08-23T20:50:00-04:00
 draft = false
 +++
 
-# SecureBoot Advanced Targeting or SBAT for short, new to me thanks to Microsoft Windows update
+## SecureBoot Advanced Targeting or SBAT for short, new to me thanks to Microsoft Windows update
 
 I have not heard of this technology before this week and it is very important to me going down a SecureBoot rabbit hole.
 
@@ -127,7 +127,7 @@ Booted back into MOK manager and tried the enrollment one more time. It finally 
 
 The system is now in a state where I can boot Ventoy, Aurora and Windows with SecureBoot enabled.
 
-### Things to take away
+## Things to take away
 
 * Leave SecureBoot in Standard mode, it shouldn't be required to change to Setup mode to enroll a MOK.
 * MOKs can be enrolled with SecureBoot disabled.
