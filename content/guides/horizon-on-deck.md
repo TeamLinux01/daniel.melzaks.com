@@ -10,13 +10,17 @@ First off, thank you HorizonXI team for setting all of this up so people can rel
 
 ## Working on a new way to install
 
-[It's a script on Github](https://github.com/TeamLinux01/HorizonXI-on-Deck)
+>🎁 User this script and please open issues. I have been using it to update and install on new systems, it works fairly well. 🎁
+>
+>[It's a script on Github](https://github.com/TeamLinux01/HorizonXI-on-Deck)
 
->🛑 Please check out this install guide as well.
->
->https://github.com/MattyGWS/HorizonXI-Linux-Installation
->
->Consider the following my own personal setup and learning.
+### Other guides 
+
+Please check out this install guide as well.
+
+https://github.com/MattyGWS/HorizonXI-Linux-Installation
+
+## ⚠️ The rest of this has been depreciated and should only be considered as a historical artifact as of 2025-01-25 ⚠️
 
 ## Create the account
 
