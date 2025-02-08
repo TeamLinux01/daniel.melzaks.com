@@ -1,6 +1,6 @@
 +++
 title = 'nushell and starship'
-date = 2025-02-08T18:12:00-05:00
+date = 2025-02-08T13:12:00-05:00
 draft = false
 +++
 
