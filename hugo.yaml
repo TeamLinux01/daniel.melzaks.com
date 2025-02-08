@@ -11,8 +11,6 @@ outputs:
     - "HTML"
     - "RSS"
 
-paginate:
-  pagerSize: 3
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
@@ -88,6 +86,9 @@ params:
     lineHeight: 1.5 # default: 1.5
     textAlign: left # default: left
 
+  pagination:
+    pagerSize: 3
+  
   # color preference
   # color:
   #   textColor:
