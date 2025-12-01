@@ -150,10 +150,6 @@ params:
           url: https://mastodon.social/@TeamLinux01
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/daniel-melzak-8a250a255
-        - icon: fa-solid fa-podcast
-          url: https://podnet.teachingdragon.online/@teachingdragoncast
-        - icon: fa-solid fa-podcast
-          url: https://podcasts.apple.com/us/podcast/gamer-radio/id1663516971
         - icon: fa-solid fa-key
           url: https://keys.openpgp.org/search?q=F4DB4302E8444D43
 
