@@ -1,6 +1,6 @@
 +++
 title = 'AVIF, my new favorite photo type'
-date = 2026-02-16T10::13-00:00
+date = 2026-02-16T10:13:00-05:00
 draft = false
 +++
 
