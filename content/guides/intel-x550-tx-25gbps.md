@@ -23,6 +23,8 @@ I chose `Pre Init` for `When` and it seems to load the change without issues.
 
 ## Systemd Unit
 
+### This is what I did originally
+
 I created two files to fix the problem on Bazzite.
 
 ### intel_ethtool_fix.sh
@@ -59,3 +61,24 @@ Then refresh the systemd daemon and enable the systemd unit with the command:
 ```bash
 sudo systemctl daemon-reload && sudo systemctl enable --now intel_ethtool_fix.service
 ```
+
+### Then I realized I can just run the command directly in the service file
+
+Copy this file to `/etc/systemd/system/` with the name `intel_ethtool_fix.service`
+
+> Use whatever the interface name is for your computer, mine was enp9s0f0
+
+```bash
+[Unit]
+Desciption=Fix X550-T2 NIC
+After=network.target
+
+[Service]
+Type=exec
+ExecStart=/usr/bin/ethtool -s enp9s0f0 advertise 0x1800000001028
+
+[Install]
+WantedBy=multi-user.target
+```
+
+> You can use `which ethtool` to get the location of ethtool, just in case it isn't in /usr/bin/
